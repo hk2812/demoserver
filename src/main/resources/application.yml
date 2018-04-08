@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+management:
+  context-path: /admin
+  security:
+    enabled: false
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hk2812/dmycfgrepo.git 
+
